@@ -1,0 +1,107 @@
+.quem-somos {
+  background-color: #050505;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  gap: 32px;
+  border-bottom: 1px solid #b4d744;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quem-somos-parte1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+
+.quem-somos-img {
+  width: 360px;
+}
+
+@media (max-width: 991px) {
+  .quem-somos-parte1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .quem-somos-img {
+    margin: 0px;
+    width: 320px;
+  }
+
+}
+
+.que-tal-transformar {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.que-tal-transformar > h3 {
+  color: #ffffff;
+  line-height: 150%;
+  font-size: 1.5rem;
+}
+
+.nos-somos-terrasense > h2 {
+  color: #ffffff;
+  line-height: 80%;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.que-tal-transformar > p {
+  color: #b0b0b0;
+  font-size: 1.2rem;
+}
+
+.nos-somos-terrasense > img {
+  width: 220px;
+  margin-top: -20px;
+}
+
+.como-funciona {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 80%;
+  gap: 32px;
+}
+
+.como-funciona > h2 {
+  color: #ffffff;
+  line-height: 150%;
+  font-size: 2rem;
+  margin: 0px;
+}
+
+.etapas-funcionamento {
+  display: flex;
+  flex-direction: column;
+}
+
+.etapas-funcionamento > h3 {
+  color: #ffffff;
+  line-height: 150%;
+  font-size: 1.5rem;
+}
+
+.etapas-funcionamento > h3 > span {
+  color: #b4d744;
+}
+
+.etapas-funcionamento > h2 {
+  color: #ffffff;
+  line-height: 150%;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.etapas-funcionamento > p {
+  color: #b0b0b0;
+  font-size: 1.2rem;
+  margin: 0px;
+}

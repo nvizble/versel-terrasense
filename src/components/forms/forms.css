@@ -1,0 +1,124 @@
+.container-fale-conosco {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  gap: 160px;
+  text-align: left;
+  padding: 5% 10%;
+}
+
+@media (max-width: 992px) {
+  .container-fale-conosco {
+    flex-direction: column;
+    gap: 48px;
+  }
+}
+
+.img-fale-conosco img {
+  width: 200px;
+}
+
+.container-formulario-contato {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 100%;
+}
+
+.forms-title {
+  padding-bottom: 4px;
+  border-bottom: 4px solid #b4d744;
+  width: fit-content;
+}
+
+.forms-title > h2 {
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.formulario-contato {
+  background: linear-gradient(#5d5d5d2d, #3d3d3d2d);
+  border: 1px solid #6d6d6d;
+  border-radius: 8px;
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 32px;
+  color: #ffffff;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.input-contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  /* padding-bottom: 16px; */
+}
+
+.input-contact-form.error,
+.input-contact-form.validation-form.success {
+  padding-bottom: 16px !important;
+}
+
+input,
+textarea {
+  padding: 9px 16px;
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff00;
+  color: #ffffff;
+  width: 95%;
+}
+
+input:focus,
+textarea:focus {
+  border-color: 1px solid #b4d744;
+  color: #ffffff;
+}
+
+label {
+  font-size: 0.875rem;
+}
+
+/* Error and Success */
+
+.controle-formulario small {
+  visibility: hidden;
+}
+
+.controle-formulario.success input {
+  border-color: #b4d744;
+}
+
+.controle-formulario.success textarea {
+  border-color: #b4d744;
+}
+
+.controle-formulario.error input {
+  border-color: #e74c3c;
+}
+
+.controle-formulario.error textarea {
+  border-color: #e74c3c;
+}
+
+.controle-formulario.error small {
+  color: #e74c3c;
+  visibility: visible !important;
+}
+
+.validation-form {
+  font-size: smaller;
+  visibility: hidden;
+}
