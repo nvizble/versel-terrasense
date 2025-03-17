@@ -19,9 +19,17 @@ const Hero = () => {
         />
         <div className="container-hero">
           <h1>Plantando tecnologia, colhendo resultados</h1>
-          <a className="link" href="https://youtube.com" target="_blank">Link do Pitch Vídeo</a>
+          <a
+            className="link"
+            href="https://www.youtube.com/watch?v=v02XTsBCGqk&feature=youtu.be"
+            target="_blank"
+          >
+            Link do Pitch Vídeo
+          </a>
           <div className="buttons-hero">
-            <buttonOutlined className="btn-outlined">Entrar em Contato</buttonOutlined>
+            <buttonOutlined className="btn-outlined">
+              Entrar em Contato
+            </buttonOutlined>
             <buttonFilled className="btn-filled">Criar Conta</buttonFilled>
           </div>
           <img
@@ -31,8 +39,7 @@ const Hero = () => {
         </div>
       </div>
     </section>
-    
   );
 };
 
-  export {Hero};
+export { Hero };
